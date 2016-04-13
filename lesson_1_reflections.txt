@@ -1,0 +1,39 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: Much easier to see the errors; still manual. I would prefer an automatic tool to do this for me.
+
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: If you had an older version that worked, you could just retrieve it, no need to manually search for it or rewrite it; this saves time and space.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: PRO: only you understant the logic behind and know when to save; CON: you can forget to do so
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Because in programming, one project can contain multiple files to work. See web dev: you can have a .html file, a .css file and a .js file.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: 1. git clone url cale\cale\director_destinatie_nou // for download
+   2. git log // to see all changes with names; the newest is on top
+   3. git diff ID#1 ID#2 //to see the differences between two
+   (use git config --global color.ui auto for color coding; lines added will be + and green, lines deleted will be - and red)
+   (repository: collection of files belonging to one project; git clone will make a local clone of that repo)
+   (commit: snapshot of all files in the repo when one change happened and the programmer sent a commit; there are multiple commits inside a repo, showing the evolution of the project)
+   (git checkout ID# // to revert to an older version)
+   
+Q: How might using version control make you more confident to make changes that could break something?
+A: You can always go back to other versions; you actually never change something, just switch between versions with git.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Version control, of coourse. Actually using it! (Very very tricky to set up though! Toooo unix-y!)
+
+(NOTE PERSONALE: daca vrei sa clonezi intr-o anumita locatie, precizezi ca argument noua locatie si trebuie sa ii dai si sub-folderul ce sa il creeze. 
+Calea se da cu slash invers, altfel nu merge. De exemplu: git clone https://github.com/udacity/pappu-pakia.git C:/version-control/pappu-pakia)
+
+(NOTE PERSONALE: COMENZI
+git ls -a // pentru a lista tot dintr-un director, inclusiv ce este ascuns
+git init // pentru a initializa un nou repository in directorul curent; asta creeaza un director ascuns .git care contine metadate cu istoria fisierelor
+git status // arata fisierele schimbate de la ultimul comit
+)
+
+
+

@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: (git init) it creates an invisible folder .git which contains all the meta data (history of the files tracked)
+
+(git add   // pentru a adauga fisiere la .git; prima data se adauga la un folder intermediar numit staging)
+(git reset   // daca ai adaugat in mod eronat fisiere la aceasta staging area)
+

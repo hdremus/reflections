@@ -4,3 +4,9 @@ A: (git init) it creates an invisible folder .git which contains all the meta da
 (git add   // pentru a adauga fisiere la .git; prima data se adauga la un folder intermediar numit staging)
 (git reset   // daca ai adaugat in mod eronat fisiere la aceasta staging area)
 
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: It's a hidden temporary area in memory. A buffer. An idea. Not an actual directory. Which allows you to make changes that cumulate into a logical step. After that you can commit the changes and the file appears into the repository.
+
+(NOTA:
+cand lansezi sublime din git, promptul dispare si are probleme pana cand inchizi Sublime. Mai bine deschide sublime separat!)
+
